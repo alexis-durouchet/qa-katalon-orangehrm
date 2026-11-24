@@ -1,0 +1,27 @@
+.gradle/
+bin/
+Reports/
+Libs/
+build/
+.cache/
+output/*
+!output/.gitkeep
+
+# Eclipse - Generated project files
+.classpath
+.project
+
+# Sensitive data and local configuration
+.env
+.env.*
+!.env.example
+console.properties
+*.log
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Operating system files
+Thumbs.db
+.DS_Store
