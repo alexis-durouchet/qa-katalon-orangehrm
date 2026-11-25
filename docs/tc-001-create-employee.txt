@@ -1,0 +1,18 @@
+Feature: Employee Management
+
+  User Story:
+    As an HR administrator,
+    I want to create a new employee record,
+    So that I can manage employee information.
+
+  @TC_001 @functional @regression
+  Scenario: Successfully create a new employee
+    Given I am logged in as an administrator
+    And I am on the PIM module
+    When I open the Add Employee form
+    And I enter a valid first name
+    And I enter a valid last name
+    And I click the Save button
+    Then the employee record should be created
+    And the employee details page should be displayed
+    And the saved information should match the entered data
