@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_PIM</name>
+   <tag></tag>
+   <elementGuidId>b5a4b5cd-63cf-49e1-b6e0-112d55de7b35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/web/index.php/pim/viewPimModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/web\/index\.php\/pim\/viewPimModule&quot;] .oxd-main-menu-item--name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;PIM&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4f5cc211-285f-4860-ba1f-99d0ba454f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
+      <webElementGuid>01112b85-6ccb-46ca-ab74-3a566c2bfff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PIM</value>
+      <webElementGuid>a614ce5d-82e5-425b-a4b9-e696e29a410c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5c7e30517d85b84db1e355b0753fad00</value>
+      <webElementGuid>1d44655b-52d7-4500-bab7-8a83009eac2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/pim/viewPimModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>b13d6d5c-ce29-4da2-a7f5-9cfe07577f14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/pim/viewPimModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>56a8c5e7-55a8-44b6-b7c7-ef210fc14c9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'PIM' or . = 'PIM')]</value>
+      <webElementGuid>70dbb3f7-512a-4270-98da-6a129ca7b0df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
